@@ -1,0 +1,32 @@
+# Maven build output
+target/
+!mvnw
+!mvnw.cmd
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+secrets.properties
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
